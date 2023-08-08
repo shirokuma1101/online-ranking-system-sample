@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{c6fe82b3-919b-44c8-8d98-1cd1d947099f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\common">
+      <UniqueIdentifier>{899e3e1b-1b0b-4cbe-bd9e-cf81ee8352d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client\main.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client\UserData.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\common\StdC++.h">
+      <Filter>client\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\common\Assert.h">
+      <Filter>client\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\common\Convert.h">
+      <Filter>client\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\common\Macro.h">
+      <Filter>client\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\common\SocketHelper.h">
+      <Filter>client\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\OrsApiClient.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Pch.h">
+      <Filter>client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
